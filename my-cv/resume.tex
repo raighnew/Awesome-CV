@@ -1,0 +1,47 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, a4paper]{../awesome-cv}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\name{Raighne}{Weng}
+\position{Senior Backend Developer}
+\address{China}
+
+% \mobile{(+65)~8053~1077}
+\email{raighne.weng@gmail.com}
+\homepage{raighne.xyz}
+\github{raighnew}
+\linkedin{raighnew}
+
+\quote{``An engineer who values clean architecture, scalability, and continuous learning."}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader[C]
+
+\makecvfooter
+  {\today}
+  {Raighne Weng~~~·~~~Résumé}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%-------------------------------------------------------------------------------
+\input{resume/summary.tex}
+\input{resume/skills.tex}
+\input{resume/experience.tex}
+\input{resume/projects.tex}
+\input{resume/education.tex}
+% \input{resume/honors.tex}
+% \input{resume/certificates.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
